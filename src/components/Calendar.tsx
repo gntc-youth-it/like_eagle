@@ -35,8 +35,8 @@ export function Calendar() {
     setIsLoading(false);
   }, []);
 
-  // 테스트용: 14일까지 열림
-  const unlockedUntil = 14;
+  // 테스트용: 28일 전체 열림
+  const unlockedUntil = 28;
 
   const getDayStatus = (day: number) => {
     return {
